@@ -1,0 +1,24 @@
+{
+  "name": "tiktok-scraper",
+  "version": "1.0.0",
+  "description": "Scraper para extrair vídeos públicos de perfis do TikTok",
+  "main": "tiktok-scraper.js",
+  "scripts": {
+    "start": "node tiktok-scraper.js",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "puppeteer": "^21.5.2"
+  },
+  "keywords": [
+    "tiktok",
+    "scraper",
+    "puppeteer",
+    "node.js"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
